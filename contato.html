@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contato - ONG Fictícia</title>
+<link rel="icon" href="images.ico">
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+h1, h2 {
+    color: #1e3a8a;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 3px solid #60a5fa;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+.alerta {
+    background-color: #ffe5e5;
+    color: #b91c1c;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+address {
+    background-color: #f8fafc;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #e2e8f0;
+}
+
+iframe {
+    margin-top: 15px;
+    border-radius: 8px;
+    border: none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Contato</h1>
+
+    <p class="alerta">
+        ⚠️ ATENÇÃO: Todos os dados desta página são fictícios e foram criados apenas para fins acadêmicos.
+    </p>
+
+    <section>
+        <h2>Formulário de Contato</h2>
+
+        <form>
+
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone">
+
+            <label for="data">Data de nascimento:</label>
+            <input type="date" id="data" name="data">
+
+            <label for="assunto">Assunto:</label>
+            <select id="assunto" name="assunto">
+                <option value="">Selecione</option>
+                <option>Denúncia</option>
+                <option>Voluntariado</option>
+                <option>Parceria</option>
+                <option>Imprensa</option>
+                <option>Outro</option>
+            </select>
+
+            
+            <label>
+                Desejo receber novidades 
+                <input type="checkbox" id="newsletter" name="newsletter" value="Desejo receber novidades"> 
+                
+            </label>
+            
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="6"></textarea>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </section>
+
+    <section>
+        <h2>Informações de Contato</h2>
+
+        <address>
+            <strong>ONG Conscientização em Saúde Mental</strong><br>
+            Rua das Flores, 123<br>
+            Centro, Cidade Exemplo - SP<br>
+            CEP: 12345-678<br>
+            Telefone: (11) 99999-0000<br>
+            E-mail: contato@ongficticia.org.br
+        </address>
+
+        <h3>Horário de Atendimento</h3>
+
+        <table>
+            <tr>
+                <th>Dia</th>
+                <th>Horário</th>
+            </tr>
+            <tr>
+                <td>Segunda a Sexta</td>
+                <td>08:00 às 18:00</td>
+            </tr>
+            <tr>
+                <td>Sábado</td>
+                <td>09:00 às 13:00</td>
+            </tr>
+        </table>
+
+        <h3>Localização</h3>
+
+        <iframe
+            src="https://maps.google.com/maps?q=Sao%20Paulo&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="300"
+            title="Mapa da localização"
+            loading="lazy">
+        </iframe>
+
+    </section>
+
+</div>
+
+</body>
+</html>
