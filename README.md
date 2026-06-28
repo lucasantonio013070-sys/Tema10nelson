@@ -9,3 +9,12 @@ pagina midia: rhuan html + css / revisão do lucas, tirou o css da pagina e colo
 contato: luiz felipe html + css
 criação do logotipo : rhuan
 aplicação do logotipo no menu e no favicon: lucas
+
+Tema 10 – Educação de Qualidade e Evasão Escolar
+
+Instruções para abrir o site
+Faça o download ou clone este repositório do GitHub.
+Abra a pasta do projeto.
+Localize o arquivo index.html.
+Abra o arquivo index.html no Visual Code ou acesse o link do github pages
+Utilize o menu de navegação para acessar as demais páginas do site.
