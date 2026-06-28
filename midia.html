@@ -4,124 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escola ou Trabalho</title>
+ <link rel="stylesheet" href="css/estilo.css">
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
 
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-
-        header {
-            background-color: #0056b3;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        nav {
-            background-color: #003d80;
-            text-align: center;
-            padding: 10px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-
-        main {
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
-        }
-
-        section {
-            margin-bottom: 40px;
-        }
-
-        h2 {
-            color: #0056b3;
-            margin-bottom: 15px;
-        }
-
-        /* Galeria */
-        .galeria {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 20px;
-        }
-
-        figure {
-            background: white;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-        }
-
-        figure img {
-            width: 100%;
-            height: 220px;
-            object-fit: cover;
-            transition: transform 0.3s ease;
-        }
-
-        figure img:hover {
-            transform: scale(1.03);
-        }
-
-        figcaption {
-            padding: 10px;
-            font-size: 0.9rem;
-        }
-
-        /* Vídeo e áudio */
-        .midia-box {
-            background: white;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-        }
-
-        iframe,
-        audio {
-            width: 100%;
-            border-radius: 10px;
-        }
-
-        footer {
-            background-color: #003d80;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            margin-top: 30px;
-        }
-    </style>
+      
+<link rel="icon" type="image/png" href="imagens/galeria/logotipo.png">
+     
+     
+     
 </head>
 
-<body>
+<body class="index">
 
-    <header>
-        <h1>Escola ou Trabalho</h1>
-        <p>Impactos, desafios e soluções para garantir o acesso à educação.</p>
-    </header>
+   <header class="indexheader">
+         <img src="imagens/galeria/logotipo.png" alt="">
+        <h1 class="titulo"> Escola ou Trabalho  </h1>
+                 
+ </header>
+        <nav class="menu">
+            
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="midia.html">Mídia</a>
+            <a href="tema.html">Tema</a>
+            <a href="extra.html">Saiba Mais</a>
+            <a href="contato.html">Contato</a>
 
-    <nav>
-        <a href="index.html">Início</a>
-        <a href="sobre.html">Sobre</a>
-        <a href="dados.html">Dados</a>
-        <a href="midia.html">Mídia</a>
-    </nav>
+           
+        </nav>
+   
 
+   
+
+   
     <main>
 
         <!-- GALERIA -->
@@ -131,7 +46,7 @@
             <div class="galeria">
 
                 <figure>
-                    <img src="imagens e videos e audios/escola moderna.jpeg"
+                    <img src="imagens\galeria\escola moderna.jpeg"
                         alt="Alunos estudando em sala de aula moderna">
                         <p>Fonte:Dom Bosco</p>
                     <figcaption>
@@ -140,7 +55,7 @@
                 </figure>
 
                 <figure>
-                    <img src="imagens e videos e audios/professora ensinando.jpeg"
+                    <img src="imagens\galeria\professora ensinando.jpeg"
                         alt="Professora auxiliando alunos durante atividade">
                         <p>Fonte:Colegio Raizes</p>
                     <figcaption>
@@ -149,7 +64,7 @@
                 </figure>
 
                 <figure>
-                    <img src="imagens e videos e audios/Criança realizando atividades.jpeg"
+                    <img src="imagens\galeria\Criança realizando atividades.jpeg"
                         alt="Criança realizando atividades escolares">
                         <p>Fonte:Educacional</p>
                     <figcaption>
@@ -158,7 +73,7 @@
                 </figure>
 
                 <figure>
-                    <img src="imagens e videos e audios/Biblioteca escolar incentivando.jpeg"
+                    <img src="imagens\galeria\Biblioteca escolar incentivando.jpeg"
                         alt="Biblioteca escolar incentivando a leitura">
                         <p>Fonte:Edusoft</p>
                     <figcaption>
@@ -167,7 +82,7 @@
                 </figure>
 
                 <figure>
-                    <img src="imagens e videos e audios/Alunos utilizando computadores.jpeg"
+                    <img src="imagens\galeria\Alunos utilizando computadores.jpeg"
                         alt="Alunos utilizando computadores na escola">
                     <p>Fonte:Hypescience</p>
                     <figcaption>
@@ -176,7 +91,7 @@
                 </figure>
 
                 <figure>
-                    <img src="imagens e videos e audios/Jovem refletindo sobre abandono escola.jpeg"
+                    <img src="imagens\galeria\Jovem refletindo sobre abandono escola.jpeg"
                         alt="Jovem refletindo sobre abandono escolar">
                     <p>Fonte:Santillanaeducacao</p>
                     <figcaption>
@@ -192,33 +107,30 @@
             <h2>Vídeo Educativo</h2>
 
             <div class="midia-box">
-                <iframe
-                    width="560"
-                    height="315"
-                    src="imagens e videos e audios/audio reportagem.mp4"
-                    title="Vídeo sobre educação de qualidade e combate à evasão escolar"
-                    frameborder="0"
-                    allowfullscreen>
-                </iframe>
 
-                <p>
-                   Fonte:Casé Fortes - TCPBrasil
-                </p>
-            </div>
-        </section>
+    <video width="560" height="315" controls>
+        <source src="videos/Video Evasao Escolar.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos.
+    </video>
 
-     
-        <section>
-            <h2>Áudio / Podcast</h2>
+    <p>
+        Fonte: Casé Fortes - TCPBrasil
+    </p>
 
-            <div class="midia-box">
+</div>
 
-                <audio controls>
-                    <source src="imagens e videos e audios/audio reportagem.mp4" type="audio/mpeg">
+<section>
+    <h2>Áudio / Podcast</h2>
 
-                    
-                </audio>
+    <div class="midia-box">
 
+        <audio controls>
+            <source src="audios/audio reportagem.mp4" type="audio/mp4">
+            Seu navegador não suporta áudio.
+        </audio>
+
+    </div>
+</section>
                 <p>
                 
                 </p>
