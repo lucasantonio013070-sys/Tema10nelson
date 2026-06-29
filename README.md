@@ -20,3 +20,10 @@ Abra a pasta do projeto.
 Localize o arquivo index.html.
 Abra o arquivo index.html no Visual Code ou acesse o link do github pages
 Utilize o menu de navegação para acessar as demais páginas do site.
+
+
+CONTRIBUIÇÕES: 
+LUCAS: pagina index e sobre
+GELSON: pagina tema
+RHUAN: pagina midia
+LUIZ: pagina contato e extra
