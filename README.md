@@ -1,4 +1,4 @@
-# Tema10nelson
+# Educação de Qualidade e Evasão Escolar
 
 INTEGRANTES: Lucas Antonio , Gelson , Rhuan , Luiz Felipe
 
