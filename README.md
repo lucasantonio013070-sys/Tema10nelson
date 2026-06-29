@@ -7,6 +7,8 @@ pagina sobre: lucas html + css
 pagina tema: gelson html + css
 pagina midia: rhuan html + css / revisão do lucas, tirou o css da pagina e colocou no style
 contato: luiz felipe html + css
+extra: luiz
+OBSERVAÇÂO: a pagina extra estava na responsabilidade do luiz, até o momento da entrega a pagina nao foi feita por ele.
 criação do logotipo : rhuan
 aplicação do logotipo no menu e no favicon: lucas
 
